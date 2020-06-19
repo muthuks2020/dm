@@ -7,11 +7,12 @@ body {
 	font-size: 16px;
 }
 .banner-section {
-	background: #182a3a;
+	background: rgb(29,50,72);
+background: linear-gradient(90deg, rgba(29,50,72,1) 0%, rgba(28,33,39,1) 100%);
 	padding: 50px 0;
 }
 h1 {
-	color: #fff;
+	color: #fff !important;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	font-size: 36px;
