@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #1d3248;
+	font-size: 16px;
+}
+.banner-section {
+	background: #182a3a;
+	padding: 50px 0;
+}
+h1 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 1.5;
+}
+h1:after {
+	content: "";
+	border-bottom: 2px solid #749c7a;
+	width: 150px;
+	display: block;
+	margin-top: 10px;
+}
+.banner-section h1 p{
+	font-size: 16px;
+	display: block;
+	color: #749c7a;
+	font-family: 'Lato', sans-serif;	
+}
+h1 span {
+	color: #00a9a9; 
+}
+.banner-section p {
+	color: #fff;
+	font-size: 18px;
+}
+.register {
+	padding: 10px 20px;
+	color: #fff;
+	background: #409293;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.register:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.content-section {
+	padding: 50px 0;
+}
+h2 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.grid-outer {
+	border: 1px solid #ccc;
+	padding: 20px 15px;
+}
+.grid {
+	margin-bottom: 15px;
+}
+h2 span {
+	font-size: 16px;
+}
+.circle-img {
+	width: 5.321vw;
+	height: 5.321vw;
+	background: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+}
+.webinarlist ul{
+	padding: 0;
+	list-style: none;
+}
+.webinarlist ul li {
+	display: flex;
+	margin-bottom: 10px;
+}
+.webinarlist ul li i {
+	color: #64a6a9;
+	padding-right: 10px;
+	margin-top: 5px;
+}
+
+@media screen and (max-width: 1500px) {
+	.circle-img {
+    width: 4.321vw;
+		height: 4.321vw;}
+}
+@media screen and (max-width: 767px) {
+	.circle-img {
+		width: 15vw;
+		height: 15vw;
+	}
+	.img-responsive {display: none;}
+	.container {box-sizing: border-box;}
+	.content-section > .row {margin: 0;}
+	h1 {font-size: 26px;}
+}
